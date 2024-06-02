@@ -5,19 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      h1{
-        text-align: center;
-        font-weight: bold;
-        font-size: 45px;
-
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-    <marquee bgcolor="green" direction="right">
-      <h1>JavaScript Hometask</h1>
+    <marquee bgcolor="lightblue" direction="right">
+      <h1>Welcome!</h1>
     </marquee>
+    <div class="div">
+      <form action="">
+        <p>Name:</p>
+        <input type="text" placeholder="Full Name" />
+        <p>Surname:</p>
+        <input type="text" placeholder="Surname" />
+        <p>Email:</p>
+        <input type="email" placeholder="Enter Your Email" />
+        <p>Password:</p>
+        <input type="password" placeholder="Enter The Password" />
+        <p>Confirm password:</p>
+        <input type="password" placeholder="Password" />
+        <button>Submit</button>
+      </form>
+    </div>
+    <script>
+      Swal.fire({
+        title: "It will take 1 minute.",
+        width: 600,
+        padding: "3em",
+        color: "#716add",
+        background: "#fff url(/images/trees.png)",
+        backdrop: `
+          rgba(0,0,123,0.4)
+          url("/images/nyan-cat.gif")
+          left top
+          no-repeat
+        `
+      });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>
