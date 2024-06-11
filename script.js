@@ -1,37 +1,32 @@
+// FIRST TEASK
+
 // function my_function() {
-//   let array = [];
-
-//   let a = prompt("Enter the first name");
-//   let b = prompt("Enter the second name");
-
-//   array[0] = a;
-//   array[1] = b;
-
-//   let longestName = array.reduce((longest, name) => {
-//     if (name.length > longest.length) {
-//       return name;
-//     } else {
-//       return longest;
-//     }
-//   });
-
-//   if (longestName.length > 0) {
-//     console.log("The longest name is: ", longestName);
-//   } else {
-//     console.log("No names found");
-//   }
+//   const element = document.querySelector(".lorem1");
+//   element.style.color = "red";
+//   element.style.fontSize = "20px";
+//   element.style.backgroundColor = "yellow";
+//   element.style.textAlign = "center";
+//   element.style.width = "430px";
+//   element.style.height = "350px";
 // }
 
-// my_function();
+// function my_function2() {
+//   const element = document.querySelector(".lorem2");
+//   element.style.color = "aqua";
+//   element.style.fontSize = "30px";
+//   element.style.backgroundColor = "black";
+//   element.style.textAlign = "center";
+//   element.style.width = "430px";
+//   element.style.height = "350px";
+// }
+
+// SECOND TASK
 
 function my_function() {
-  let array = [];
-
-  let a = prompt("Enter the first name");
-  let b = prompt("Enter the second name");
-
-  array[0] = a;
-  array[1] = b;
-
-  let longestName = array.reduce;
+  const elements = document.querySelectorAll(".title1");
+  elements.forEach((element) => {
+    element.style.color = "lightblue";
+    element.style.fontSize = "30px";
+    element.style.backgroundColor = "blue";
+  });
 }

@@ -1,3 +1,44 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <style>
+      .target {
+        color: black;
+        font-size: 16px;
+        background-color: white;
+      }
+    </style>
+    <p class="lorem1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ad itaque
+      maxime, perspiciatis sed, amet non ducimus provident, mollitia vero veniam
+      consequuntur voluptates magni asperiores nihil numquam excepturi
+      doloremque! Reprehenderit atque mollitia iure in possimus autem, harum
+      quisquam quo eos optio sequi sapiente quibusdam laborum voluptatibus. Nam
+      deserunt beatae magnam!
+    </p>
+    <button onclick="my_function()" style="color: blue; font-size: 18px;">
+      Make a different way
+    </button>
+
+    <p class="lorem2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos provident,
+      pariatur tempora minus in soluta perspiciatis facere odio, beatae unde
+      ipsa! Non pariatur quaerat dolor eaque suscipit cum odio rem ea fugit iste
+      doloremque tempore minus nulla magni, iure fugiat? Ipsam vel deserunt
+      expedita nisi!
+    </p>
+    <button onclick="my_function2()" style="color: green; font-size: 20px;">
+      Make a different way
+    </button>
+  </body>
+</html>-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,43 +46,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-    <marquee bgcolor="lightblue" direction="right">
-      <h1>Welcome!</h1>
-    </marquee>
-    <div class="div">
-      <form action="">
-        <p>Name:</p>
-        <input type="text" placeholder="Full Name" />
-        <p>Surname:</p>
-        <input type="text" placeholder="Surname" />
-        <p>Email:</p>
-        <input type="email" placeholder="Enter Your Email" />
-        <p>Password:</p>
-        <input type="password" placeholder="Enter The Password" />
-        <p>Confirm password:</p>
-        <input type="password" placeholder="Password" />
-        <button>Submit</button>
-      </form>
-    </div>
-    <script>
-      Swal.fire({
-        title: "It will take 1 minute.",
-        width: 600,
-        padding: "3em",
-        color: "#716add",
-        background: "#fff url(/images/trees.png)",
-        backdrop: `
-          rgba(0,0,123,0.4)
-          url("/images/nyan-cat.gif")
-          left top
-          no-repeat
-        `
-      });
-    </script>
+    <marquee
+      class="anime"
+      style="color: black; font-size: 16px; background-color: white;"
+      >Hi, Welcome</marquee
+    >
+    <h1 class="title1">Javascript codes</h1>
+    <h2 class="head2">Learn more about this language</h2>
+    <p class="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto
+      eaque expedita ipsa voluptatem sapiente adipisci error ab iste mollitia.
+    </p>
+    <button onclick="my_function()">Change</button>
     <script src="./script.js"></script>
   </body>
 </html>
