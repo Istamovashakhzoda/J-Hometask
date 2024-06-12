@@ -1,54 +1,16 @@
-<!-- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>misol</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
   </head>
   <body>
-    <div id="myDiv">Hi world</div>
-    <button onclick="changeContent()">Tarkibni o'zgartirish</button>
-    <script>
-      function changeContent() {
-        let div = document.getElementById("myDiv");
-        div.innerHTML = "<p>Salom dunyo</p>";
-      }
-    </script>
+    <div id="counter">0</div>
+    <button id="incrementBtn">+</button>
+    <button id="decrementBtn">-</button>
+    <button id="resetBtn">Reset</button>
+    <script src="./script.js"></script>
   </body>
-</html> -->
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>dom</title>
-  </head>
-  <body>
-    <script>
-            document.addEventListener("DOMContentLoaded", function() {
-        const pElement = document.createElement("p");
-        pElement.textContent = "This is a new paragraph";
-        document.body.appendChild(pElement);
-      });
-    </script>
-  </body>
-</html> -->
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>dom</title>
-  </head>
-  <body>
-    <img
-      id="myImage"
-      src="https://widewp.ru/images/space/448.jpg"
-      alt="Rasm tasviri"
-      style="width: 230px;
-      height: 240px;"
-    />
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const imgElement = document.getElementById("myImage");
-        imgElement.src = "https://wallart.ua/wplg/19409-orig.jpg";
-      });
-    </script>
-  </body>
-</html> -->
+</html>
